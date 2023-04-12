@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 :root {
+    --primary-color: #ff5b2e;
 }
 html,
 body {
@@ -14,6 +15,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    background: #fffaf5;
 }
 h1,
 h2,
@@ -37,4 +39,50 @@ textarea,
 select,
 button {
     font-family: inherit;
+}
+.btn {
+    display: inline-block;
+    width: 117px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border: 1px solid #000958;
+    border-radius: 25px;
+    background: transparent;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* Header */
+.header {
+    margin-top: 26px;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navabar__list {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.action__link,
+.navbar__link {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #5E6085;
+}
+.header-action {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.action__link:hover,
+.navbar__link:hover {
+    color: #000958;
+    text-shadow: 1px 0 0 currentColor;
 }
