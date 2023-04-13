@@ -244,3 +244,129 @@ button {
     text-decoration-line: underline;
     color: #000958;
 }
+
+/* About */
+.about-1 {
+    margin-top: 201px;
+}
+.about-1__top {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #5e6085;
+}
+.about-1__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-1__info {
+    width: 41%;
+}
+.about-1__heading {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.19;
+    color: #000958;
+    margin-bottom: 24px;
+}
+.about-1__desc {
+    margin-bottom: 57px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #656689;
+}
+.about-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 36px;
+}
+.about-list__title {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #48496a;
+}
+.about-list__title::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background: var(--primary-color);
+    margin-right: 10px;
+    box-shadow: 0px 4px 15px -3px rgba(255, 93, 49, 0.69);
+}
+.about-list__title::after {
+    position: absolute;
+    width: 13px;
+    height: 9px;
+    rotate: -45deg;
+    top: 4px;
+    left: 4px;
+    content: "";
+    border-left: 2px solid #fff2e5;
+    border-bottom: 2px solid #fff2e5;
+}
+.about-1__img-wrap {
+    position: relative;
+    width: 494px;
+    margin-left: auto;
+}
+.about-1__img {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+.about-1__img-wrap::after {
+    position: absolute;
+    inset: auto 0 0 0;
+    z-index: -1;
+    content: "";
+    height: 336px;
+    background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+    border-radius: 16px;
+}
+.about-1__decor {
+    position: absolute;
+    top: 149px;
+    right: -72px;
+    z-index: -1;
+}
+.about-1-summary {
+    padding: 31px 26px 29px 26px;
+    position: absolute;
+    top: 165px;
+    right: 453px;
+    width: 136px;
+    height: 156px;
+    background: #5bd6e2;
+    box-shadow: -15px 26px 48px rgba(85, 240, 255, 0.17);
+    border-radius: 10px;
+    text-align: center;
+}
+.about-1-summary__stats {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1;
+    color: #ffffff;
+}
+.about-1-summary__desc {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.43;
+    color: #c6f4f9;
+}
+.about-1-summary__decor {
+    position: absolute;
+    top: 126px;
+    right: 420px;
+}
