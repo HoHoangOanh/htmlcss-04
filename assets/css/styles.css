@@ -8,6 +8,7 @@
 html,
 body {
     scroll-behavior: smooth;
+    height: 5000px;
 }
 html {
     font-size: 62.5%;
@@ -369,4 +370,117 @@ button {
     position: absolute;
     top: 126px;
     right: 420px;
+}
+
+/* About-2 */
+.about-2 {
+    margin-top: 154px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 78px;
+    margin-bottom: 190px;
+}
+
+.about-2__image {
+    position: relative;
+    width: 458px;
+    margin-left: 0;
+    background: linear-gradient(180deg, #c6e2fa 0%, #94c2ea 100%);
+    border: 2px solid #ffffff;
+    box-shadow: 0px 17px 77px -8px rgba(190, 165, 139, 0.17);
+    border-radius: 18px;
+}
+.about-2__img {
+    margin: 0 auto;
+    border-radius: 18px;
+}
+.about-2__decor {
+    position: absolute;
+}
+
+.about-2__decor:nth-child(2) {
+    position: absolute;
+    top: 8px;
+    right: 52px;
+}
+.about-2__decor:nth-child(3) {
+    position: absolute;
+    top: -18px;
+    right: 10px;
+}
+.about-2__decor:nth-child(4) {
+    position: absolute;
+    top: 31px;
+    right: -24px;
+}
+.about-2__decor:nth-child(5) {
+    position: absolute;
+    top: 284px;
+    right: -33px;
+}
+.about-2__decor:nth-child(6) {
+    position: absolute;
+    top: 335px;
+    right: 15px;
+}
+.about-2__decor:nth-child(7) {
+    position: absolute;
+    top: 435px;
+    right: -45px;
+}
+
+.about-2-info {
+    width: 50%;
+}
+.about-2__heading {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.19;
+    color: #000958;
+}
+.about-2__desc {
+    width: 86%;
+    margin-top: 24px;
+    margin-bottom: 52px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #656689;
+}
+
+.about-2-active {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-2__list {
+    display: flex;
+    align-items: center;
+}
+.about-2__logo {
+    margin-right: 6px;
+}
+.about-2__title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #48496a;
+}
+.about-2__memo {
+    width: 67%;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #656689;
+}
+.about-2__link {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #ff5d31;
 }
