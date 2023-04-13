@@ -379,7 +379,7 @@ button {
     align-items: center;
     justify-content: space-between;
     gap: 78px;
-    margin-bottom: 190px;
+    margin-bottom: 174px;
 }
 
 .about-2__image {
@@ -483,4 +483,114 @@ button {
     font-size: 1.6rem;
     line-height: 1;
     color: #ff5d31;
+}
+
+/* Service */
+.service {
+    padding-top: 68px;
+    background-color: #f7e7d7 !important;
+    padding-bottom: 90px;
+}
+.service__title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    text-align: center;
+    color: #5e6085;
+}
+.service__label {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.19;
+    text-align: center;
+    color: #000958;
+}
+.service-row {
+    margin-top: 31px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 71px;
+}
+.service-item {
+    padding: 30px 22px 30px 28px;
+    width: 294px;
+    height: 208px;
+    background: #ffffff;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.service-item:first-child {
+    margin-top: 40px;
+}
+.service-item:last-child {
+    margin-bottom: 40px;
+}
+.service-item__title {
+    position: relative;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #000958;
+    padding-left: 12px;
+}
+.service-item__title::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    inset: 0 auto 0 0;
+    width: 2px;
+    border-radius: 1px;
+    background: linear-gradient(#ff5b2e, #ffa187);
+    left: 0px;
+}
+.service__image {
+    position: relative;
+    margin-top: 50px;
+}
+.service__image::after {
+    position: absolute;
+    content: "";
+    height: 350px;
+    left: 16px;
+    right: 16px;
+    bottom: 109px;
+    background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+    border-radius: 10px;
+}
+.service__img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 100%;
+}
+.service-item__desc {
+    margin-top: 18px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #656689;
+}
+.service-item__active {
+    display: flex;
+    align-items: center;
+}
+.service-item__link {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #34396a;
+    margin-right: 10px;
+}
+.service-btn {
+    margin-top: 45px;
+    width: 214px;
+    height: 56px;
+    border: 1px solid #ff5b2e;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+    border-radius: 31px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
