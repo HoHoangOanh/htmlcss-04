@@ -1191,13 +1191,15 @@ button {
     line-height: 2;
     color: #656689;
 }
+.footer-item__item a:hover {
+    text-decoration: underline;
+}
 .footer__copyright {
     display: flex;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.17;
-    color: #656689;
-    opacity: 0.5;
+    color: rgba(101, 102, 137, 0.5);
     margin-top: 52px;
     margin-left: -160px;
 }
