@@ -769,7 +769,7 @@
             <section class="review">
                 <div class="container">
                     <div class="review-inner">
-                        <div class="review-btn">
+                        <a href="#!" class="review-btn">
                             <svg
                                 class="review-btn__arrow"
                                 width="20"
@@ -793,7 +793,7 @@
                                     stroke-linejoin="round"
                                 />
                             </svg>
-                        </div>
+                        </a>
                         <figure class="review__image">
                             <img
                                 src="./assets/img/review/review-user.png"
@@ -813,31 +813,31 @@
                             </p>
                             <h6 class="review__name">Karla Deras</h6>
                         </div>
-                        <div class="review-btn review-arrow__left">
+                        <a href="#!" class="review-btn review-arrow__left">
                             <svg
-                                class="review-btn__arrow"
-                                width="20"
-                                height="21"
-                                viewBox="0 0 20 21"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M16.875 10.9985H3.125"
-                                    stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                />
-                                <path
-                                    d="M8.75 5.37354L3.125 10.9985L8.75 16.6235"
-                                    stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                />
-                            </svg>
-                        </div>
+                            class="review-btn__arrow"
+                            width="20"
+                            height="21"
+                            viewBox="0 0 20 21"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M16.875 10.9985H3.125"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="M8.75 5.37354L3.125 10.9985L8.75 16.6235"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                        </a>                        
                     </div>
                     <a href="#!" class="review__link">
                         <div class="review__dot"></div>
@@ -859,7 +859,7 @@
                                     Stay up to date with the latest tech trands
                                     and news in the pets.
                                 </p>
-                                <button class="blog-btn staff-btn">
+                                <button class="btn blog-btn staff-btn">
                                     View All Blog
                                 </button>
                             </div>
@@ -868,16 +868,20 @@
                             <!-- Blog item 1 -->
                             <article class="blog-item">
                                 <figure class="blog-item__image">
-                                    <img
+                                    <a href="#!">
+                                        <img
                                         src="./assets/img/blog/blog-1.png"
                                         alt=""
                                         class="blog-item__img"
                                     />
+                                    </a>
                                 </figure>
-                                <h3 class="blog-item__title">
-                                    Building Bonds and Trusting Relationships
-                                    with Your Pets.
-                                </h3>
+                                <a href="#!" class="blog-item__link">
+                                    <h3 class="blog-item__title">
+                                        Building Bonds and Trusting
+                                        Relationships with Your Pets.
+                                    </h3>
+                                </a>
                                 <p class="blog-item__desc">
                                     There isn’t a relationship around that can
                                     survive without trust. My relationship with
@@ -888,16 +892,20 @@
                             <!-- Blog item 2 -->
                             <article class="blog-item">
                                 <figure class="blog-item__image">
-                                    <img
+                                    <a href="#!">
+                                        <img
                                         src="./assets/img/blog/blog-2.png"
                                         alt=""
                                         class="blog-item__img"
                                     />
+                                    </a>
                                 </figure>
-                                <h3 class="blog-item__title">
-                                    Celebrity pet photographer Grace Chon on
-                                    taking ...
-                                </h3>
+                                <a href="#!" class="blog-item__link">
+                                    <h3 class="blog-item__title">
+                                        Celebrity pet photographer Grace Chon on
+                                        taking ...
+                                    </h3>
+                                </a>
                                 <p class="blog-item__desc">
                                     Doting pet parents have a relentless need to
                                     constantly photograph every adorable pet
@@ -908,16 +916,20 @@
                             <!-- Blog item 3 -->
                             <article class="blog-item">
                                 <figure class="blog-item__image">
-                                    <img
+                                    <a href="#!">
+                                        <img
                                         src="./assets/img/blog/blog-3.png"
                                         alt=""
                                         class="blog-item__img"
                                     />
+                                    </a>
                                 </figure>
-                                <h3 class="blog-item__title">
-                                    5 Simple Tricks To Create A More Conscious
-                                    ...
-                                </h3>
+                                <a href="#!" class="blog-item__link">
+                                    <h3 class="blog-item__title">
+                                        5 Simple Tricks To Create A More
+                                        Conscious ...
+                                    </h3>
+                                </a>
                                 <p class="blog-item__desc">
                                     It is easy to forget that animals are living
                                     creatures with a beating heart.
@@ -930,6 +942,166 @@
         </main>
 
         <!-- Footer -->
-        <footer></footer>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <!-- Column 1 -->
+                    <div class="footer__left">
+                        <!-- Logo -->
+                        <figure class="footer__logo">
+                            <img
+                                src="./assets/img/Logo.svg"
+                                alt="Lucy - Pet"
+                                class="logo"
+                            />
+                        </figure>
+
+                        <!-- Form -->
+                        <form class="footer-form" action=PHP method="post">
+                            <input
+                                class="footer-input"
+                                autocomplete="off"
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            />
+                            <button class="footer-btn" type="submit">
+                                <svg
+                                class="footer-btn__arrow"
+                                width="20"
+                                height="21"
+                                viewBox="0 0 20 21"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M16.875 10.9985H3.125"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path
+                                    d="M8.75 5.37354L3.125 10.9985L8.75 16.6235"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            </button>
+                        </form>
+                        <!-- Social -->
+                        <div class="footer-social">
+                            <h6 class="footer-social__title">Follow Us</h6>
+                            <div class="footer-social__group">
+                                <a href="#!" class="footer-social__link">
+                                    <div class="footer-social__img">
+                                        <img src="./assets/icon/facebook.svg" alt="facebook" class="footer-social__logo">
+                                    </div>
+                                </a>
+                                <a href="#!" class="footer-social__link">
+                                    <div class="footer-social__img">
+                                        <img src="./assets/icon/twitter.svg" alt="twitter" class="footer-social__logo">
+                                    </div>
+                                </a>
+                                <a href="#!" class="footer-social__link">
+                                    <div class="footer-social__img">
+                                        <img src="./assets/icon/linkden.svg" alt="linkden" class="footer-social__logo">
+                                    </div>
+                                </a>
+                                <a href="#!" class="footer-social__link">
+                                    <div class="footer-social__img">
+                                        <img src="./assets/icon/instagram.svg" alt="instagram" class="footer-social__logo">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="footer__right">
+                        <div class="footer__right-row">
+                            <!-- Item 1 -->
+                            <div class="footer-item">
+                                <h6 class="footer-item__title">Explore</h6>
+                                <ul class="footer-item__list">
+                                    <li class="footer-item__item">
+                                        <a href="#!">About Us</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Services</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Our Team</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Adopt Pet</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Site Map</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="footer-item">
+                                <h6 class="footer-item__title">Useful links</h6>
+                                <ul class="footer-item__list">
+                                    <li class="footer-item__item">
+                                        <a href="#!">FAQs</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Shop</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Privacy Policy</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Terms of Use</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Site Map</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="footer-item">
+                                <h6 class="footer-item__title">Contact Info</h6>
+                                <ul class="footer-item__list">
+                                    <li class="footer-item__item">
+                                        <a href="#!">abc@gmail.com</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">0(800)-000-00-00</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">New York, NY, Rocwy 7</a>
+                                    </li>                                
+                                </ul>
+                            </div>   
+                            <!-- Item 4 -->
+                            <div class="footer-item">                        
+                                <h6 class="footer-item__title">Opening Time</h6>
+                                <ul class="footer-item__list">
+                                    <li class="footer-item__item">
+                                        <a href="#!">Mon- Fri: 08:00 am - 20:00 pm</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Saturday: 09:00 am - 20:00 pm</a>
+                                    </li>
+                                    <li class="footer-item__item">
+                                        <a href="#!">Sunday: We are closed</a>
+                                    </li>                                
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="footer__copyright">Copyright & Design By Uihut</span>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
     </body>
 </html>
